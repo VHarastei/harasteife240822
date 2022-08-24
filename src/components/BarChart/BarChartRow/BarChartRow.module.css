@@ -1,0 +1,36 @@
+.tableRowHead {
+  font-size: 16px;
+  font-weight: normal;
+  color: gray;
+  min-width: 125px;
+  text-align: right;
+  padding: 8px 0;
+  padding-right: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .tableRowHead {
+    min-width: 75px;
+  }
+}
+
+.tableRowData {
+  background-color: lightgray;
+}
+
+.activeTableRowData {
+  background-color: lightblue;
+  color: gray;
+  font-size: 16px;
+  padding: 8px 0;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+}
+
+.activeTableRowData > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

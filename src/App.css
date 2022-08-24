@@ -1,0 +1,10 @@
+.headerTitle {
+  text-transform: uppercase;
+  color: gray;
+  margin: 8px;
+  font-size: 20px;
+}
+
+.main {
+  margin: 0 8px;
+}
